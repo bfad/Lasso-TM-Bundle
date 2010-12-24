@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Lasso</string>
+	<key>ordering</key>
+	<array>
+		<string>ED5E138D-C4A8-4F7A-AAC6-74C315471D00</string>
+		<string>44881692-651A-4FB7-A8FA-A3863BD1C451</string>
+	</array>
+	<key>uuid</key>
+	<string>D0273AC8-CE25-4D63-AA0C-9852AF0A0174</string>
+</dict>
+</plist>
