@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>iterate(${1:name}, ${2:local('$3')});
+	$0
+/iterate;</string>
+	<key>name</key>
+	<string>iterate</string>
+	<key>scope</key>
+	<string>source.lasso</string>
+	<key>tabTrigger</key>
+	<string>iterate</string>
+	<key>uuid</key>
+	<string>1447FF36-E99E-4350-B8D7-A6B6DB372C75</string>
+</dict>
+</plist>
