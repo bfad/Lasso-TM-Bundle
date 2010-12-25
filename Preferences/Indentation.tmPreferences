@@ -22,7 +22,7 @@
 			|while)\b
 	)</string>
 		<key>increaseIndentPattern</key>
-		<string>(?x)(?i)(^.*\{[^}"']*$
+		<string>(?x)(?i)(^.*\{[^}"']*$|^.*\[[^\]"']*$
 		|(else|case)\b
 		# Opening Container Tags
 		|[^/](cache|database_names|database_schemanames|database_tablenames|define_tag|define_type
