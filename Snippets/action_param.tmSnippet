@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>inline(${1:-inlineName='$2', }-database=$3, -sql=$4${5:, -maxRecords=$6});
-	$0
-/inline;</string>
+	<string>action_param('${1:name}');</string>
 	<key>name</key>
-	<string>inline</string>
+	<string>action_param</string>
 	<key>scope</key>
 	<string>source.lasso</string>
 	<key>tabTrigger</key>
-	<string>inline</string>
+	<string>ap</string>
 	<key>uuid</key>
-	<string>0BDFA984-A515-495A-A471-958AB9DC178C</string>
+	<string>B7C6391A-37D9-4A4F-9948-861A87F47B6F</string>
 </dict>
 </plist>
