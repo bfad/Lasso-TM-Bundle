@@ -2,6 +2,28 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>F8CA7B2D-450C-4CF9-B3DB-3DF5FC5D20FD</string>
+			<string>------------------------------------</string>
+			<string>2DEFE62B-5941-41B9-8FC8-DA38A61D455B</string>
+			<string>1D242472-9EB0-4918-87E9-54C519AA9CE7</string>
+			<string>5791F60B-E430-47A8-A6C2-DE186F5941F2</string>
+			<string>E854D61D-39B0-4B4A-9FC7-D2A9D79E1612</string>
+			<string>E270291E-CB37-40FD-A646-9831ED5FA07A</string>
+			<string>E3519696-DEA3-403A-A051-145C800E2C44</string>
+			<string>8E272148-0F80-4B58-827E-440EE964EA3B</string>
+			<string>73CA944B-26D9-49BB-81D5-AACEB1F3489A</string>
+			<string>B7C6391A-37D9-4A4F-9948-861A87F47B6F</string>
+			<string>1447FF36-E99E-4350-B8D7-A6B6DB372C75</string>
+			<string>0BDFA984-A515-495A-A471-958AB9DC178C</string>
+			<string>B15C82E0-1654-4135-809F-4BDF33F79413</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
 	<key>name</key>
 	<string>Lasso</string>
 	<key>ordering</key>
@@ -21,6 +43,8 @@
 		<string>1447FF36-E99E-4350-B8D7-A6B6DB372C75</string>
 		<string>0BDFA984-A515-495A-A471-958AB9DC178C</string>
 		<string>B15C82E0-1654-4135-809F-4BDF33F79413</string>
+		<string>F25A384D-742C-4700-A911-74B5ED5F10AD</string>
+		<string>F8CA7B2D-450C-4CF9-B3DB-3DF5FC5D20FD</string>
 	</array>
 	<key>uuid</key>
 	<string>D0273AC8-CE25-4D63-AA0C-9852AF0A0174</string>
