@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>resultSet(${1:Index}${2:, -inlineName='$3'});
+	$0
+/resultSet;</string>
+	<key>name</key>
+	<string>resultSet</string>
+	<key>scope</key>
+	<string>source.lasso</string>
+	<key>tabTrigger</key>
+	<string>resultset</string>
+	<key>uuid</key>
+	<string>B77E0985-460F-452A-9121-A95C2F0FE1C3</string>
+</dict>
+</plist>
