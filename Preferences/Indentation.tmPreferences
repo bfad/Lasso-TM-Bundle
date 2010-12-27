@@ -25,14 +25,14 @@
 		<string>(?x)(?i)(^.*\{[^}"']*$|^.*\[[^\]"']*$
 		|(else|case)\b
 		# Opening Container Tags
-		|[^/](cache|database_names|database_schemanames|database_tablenames|define_tag|define_type
+		|(^|[^\/])(cache|database_names|database_schemanames|database_tablenames|define_tag|define_type
 			|email_batch|encode_set|records|html_comment|handle|handle_error|header|if|inline
 			|iterate|ljax_target|link|link_currentaction|link_currentgroup|link_currentrecord
 			|link_detail|link_firstgroup|link_firstrecord|link_lastgroup|link_lastrecord
 			|link_nextgroup|link_nextrecord|link_prevgroup|link_prevrecord|log|loop|namespace_using
 			|noprocess|output_none|portal|private|protect|referer|referrer|repeating|resultset|rows
 			|search_args|search_arguments|select|sort_args|sort_arguments|thread_atomic|value_list
-			|while)\b
+			|while)\b[^}]*$
 	)</string>
 	</dict>
 	<key>uuid</key>
