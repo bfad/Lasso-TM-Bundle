@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>column('${1:name}');</string>
+	<string>column('${1:name}')</string>
 	<key>name</key>
 	<string>column</string>
 	<key>scope</key>
