@@ -31,3 +31,10 @@ To manually download and install this bundle, follow these steps:
 4. Rename this folder to Lasso.tmbundle
 
 5. Once you do that, if you have TextMate installed, it should recognize it as a package. Double click the newly named Lasso.tmbundle and it should launch TextMate and install it for you
+
+
+## Contribution Credits
+
+Brad Lindsay - Primary developer and maintainer of the bundle
+
+Ke Carlton - Contributed the "Convert tags to Lasso 9" macro
