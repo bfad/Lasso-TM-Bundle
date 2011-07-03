@@ -41,6 +41,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>(?i)\b(public|private|protected|data|type|thread|trait|import|provide|require)\b</string>
+			<key>name</key>
+			<string>keyword.descriptors.lasso</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>(?i)\b(array|action_params?|boolean|bytes|capture|curl|currency|database_registry|date|dateandtime|decimal|delve|dir|duration|eacher|file|generateForEachKeyed|generateForEachUnKeyed|generateSeries|inline_type|integer|list|list_node|literal|local|locale|map|map_node
 			|net_tcp|net_tcpssl|net_udp|net_udppacket|object|pair|pairup|paramdesc|pdf_barcode|pdf_chunk|pdf_color|pdf_doc|pdf_font|pdf_hyphenator|pdf_image|pdf_list|pdf_paragraph|pdf_phrase|pdf_read|pdf_table|pdf_text|pdf_typebase
 			|percent|queriable_select|queriable_groupBy|queriable_grouping|queriable_groupJoin|queriable_join|queriable_orderBy|queriable_orderByDescending|queriable_selectMany|queriable_skip|queriable_take|queriable_thenBy|queriable_thenByDescending|queriable_where
@@ -145,7 +151,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\s*\.\.?[a-zA-Z_]|\b(?i:self)\b)</string>
+			<string>(\s#1\s|\b(?i:self)\b)</string>
 			<key>name</key>
 			<string>variable.language.lasso</string>
 		</dict>
@@ -163,7 +169,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(!|&amp;&amp;|\|\|)</string>
+			<string>(?i)(!|&amp;&amp;|\|\||\?|\bnot\b|\band\b|\bor\b)</string>
 			<key>name</key>
 			<string>keyword.operator.logical.lasso</string>
 		</dict>
